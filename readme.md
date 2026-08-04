@@ -5,6 +5,7 @@
 - **DeepseekV3** - [Paper](https://arxiv.org/abs/2412.19437), [Code](./deepseekv3/deepseekv3.ipynb)
 - **Gemma** - [Paper](https://arxiv.org/pdf/2403.08295), [Code](./gemma/gemma.ipynb)
 - **GPT** - [Paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf), [Code](./gpt/gpt-jax.ipynb)
+- **kNN Language Model** - [Paper](https://arxiv.org/abs/1911.00172), [Code](./knn-lm/knn_language_model.ipynb)
 - **Knowledge Distillation** - [Paper](https://arxiv.org/abs/1503.02531), [Code](./knowledge%20distillation/kd.py)
 - **LLaMA3** - [Paper](https://arxiv.org/pdf/2407.21783), [Code](./llama3/LLaMA-jax.ipynb)
 - **Variational Autoencoder** - [Paper](https://arxiv.org/abs/2604.18035), [Code](./autoencoder/variational%20autoencoder.ipynb)
