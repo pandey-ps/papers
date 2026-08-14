@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this repository in your research, please cite it as below."
+title: "Replicating Papers and Architectures in PyTorch/JAX"
+authors:
+  - family-names: Pandey
+    given-names: Prashant
+    orcid: "https://orcid.org/0000-0009-5662-991X"
+date-released: "2025-12-21"
+version: "1.0.0"
+repository-code: "https://github.com/pandey-ps/papers"
+keywords:
+  - deep learning
+  - paper replications
+  - pytorch
+  - transformers
