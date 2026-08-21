@@ -9,5 +9,6 @@
 - **Knowledge Distillation** - [Paper](https://arxiv.org/abs/1503.02531), [Code](./knowledge%20distillation/kd.py)
 - **LLaMA3** - [Paper](https://arxiv.org/pdf/2407.21783), [Code](./llama3/LLaMA-jax.ipynb)
 - **scMalignantFinder** - [Paper](https://www.nature.com/articles/s42003-025-07942-y), [Code](./scmalignantfinder/scMalignantFinder.ipynb)
+- **UNet** - [Paper](https://arxiv.org/abs/1505.04597), [Code](./unet/unet.ipynb)
 - **Variational Autoencoder** - [Paper](https://arxiv.org/abs/2604.18035), [Code](./autoencoder/variational%20autoencoder.ipynb)
 - **Vision Transformers** - [Paper](https://arxiv.org/abs/2010.11929), [Code](./vision%20transformer/ViT.ipynb)
