@@ -1,0 +1,123 @@
+2026-08-16 22:08:49,784 INFO filter stats: {'total': 63811783, 'short': 125706, 'long': 563034, 'bad': 2865}, kept: 63120178
+2026-08-16 22:08:49,902 INFO [11, 16, 3, 9, 8, 8, 4, 20, 3, 4, 17, 1, 15, 15, 1, 8, 4, 1, 6, 18, 12, 17, 10, 1, 3, 1, 18, 22]
+2026-08-16 22:08:49,903 INFO MSDKIIEYDETARRAIEAGVNTLADAV<eos>
+2026-08-16 22:16:26,076 INFO full: 63,120,028 - (63120028, 512)
+2026-08-16 22:16:26,592 INFO torch.Size([1, 128, 256])
+2026-08-16 22:16:26,725 INFO tensor(0.0336, grad_fn=<MaxBackward1>)
+2026-08-16 22:16:27,091 INFO torch.Size([4, 768, 128])
+2026-08-16 22:16:27,630 INFO max |fft - naive| = 1.9073486328125e-06
+2026-08-16 22:16:28,514 INFO op out: torch.Size([4, 128, 256])
+2026-08-16 22:16:28,535 INFO max |fft-op - naive-op| = 3.5762786865234375e-07
+2026-08-16 22:16:28,679 INFO params: 1.645M
+2026-08-16 22:16:29,192 INFO logits: torch.Size([4, 128, 32])
+2026-08-16 22:16:29,196 INFO init CE (expect ~ln 32 = 3.466): 3.5579583644866943
+2026-08-16 22:16:30,064 INFO L= 128  max |fft-LM - naive-LM| = 7.153e-07
+2026-08-16 22:16:32,128 INFO L= 256  max |fft-LM - naive-LM| = 7.749e-07
+2026-08-16 22:16:41,851 INFO L= 512  max |fft-LM - naive-LM| = 1.073e-06
+2026-08-16 22:26:00,005 INFO train tokens: 9553455748
+2026-08-16 22:26:00,010 INFO train steps/epoch: 145774
+2026-08-16 22:26:01,353 INFO device: cuda | params: 1.645M
+2026-08-16 22:32:17,645 INFO step    500 | lr 6.00e-04 | loss 2.8123 | ppl 16.649 | 0k tok/s
+2026-08-16 22:36:03,975 INFO step   1000 | lr 6.00e-04 | loss 2.8032 | ppl 16.497 | 1k tok/s
+2026-08-16 22:39:15,083 INFO step   1500 | lr 5.99e-04 | loss 2.7759 | ppl 16.052 | 1k tok/s
+2026-08-16 22:42:06,277 INFO step   2000 | lr 5.98e-04 | loss 2.7669 | ppl 15.910 | 1k tok/s
+2026-08-16 22:42:06,366 INFO step 2000: saved fela_checkpoint.pt
+2026-08-16 22:44:59,707 INFO step   2500 | lr 5.96e-04 | loss 2.7634 | ppl 15.854 | 1k tok/s
+2026-08-16 22:47:53,509 INFO step   3000 | lr 5.94e-04 | loss 2.7651 | ppl 15.881 | 1k tok/s
+2026-08-16 22:50:07,944 INFO step   3500 | lr 5.92e-04 | loss 2.7318 | ppl 15.360 | 1k tok/s
+2026-08-16 22:52:09,010 INFO step   4000 | lr 5.89e-04 | loss 2.7426 | ppl 15.527 | 1k tok/s
+2026-08-16 22:52:09,046 INFO step 4000: saved fela_checkpoint.pt
+2026-08-16 22:54:11,648 INFO step   4500 | lr 5.86e-04 | loss 2.7295 | ppl 15.325 | 1k tok/s
+2026-08-16 22:56:12,277 INFO step   5000 | lr 5.82e-04 | loss 2.7296 | ppl 15.326 | 1k tok/s
+2026-08-16 22:58:13,896 INFO step   5500 | lr 5.78e-04 | loss 2.7164 | ppl 15.125 | 1k tok/s
+2026-08-16 23:00:16,177 INFO step   6000 | lr 5.74e-04 | loss 2.7202 | ppl 15.183 | 1k tok/s
+2026-08-16 23:00:16,211 INFO step 6000: saved fela_checkpoint.pt
+2026-08-16 23:02:16,755 INFO step   6500 | lr 5.69e-04 | loss 2.7057 | ppl 14.965 | 1k tok/s
+2026-08-16 23:04:18,064 INFO step   7000 | lr 5.64e-04 | loss 2.7250 | ppl 15.257 | 1k tok/s
+2026-08-16 23:06:18,433 INFO step   7500 | lr 5.58e-04 | loss 2.6954 | ppl 14.812 | 1k tok/s
+2026-08-16 23:08:20,431 INFO step   8000 | lr 5.52e-04 | loss 2.7115 | ppl 15.052 | 1k tok/s
+2026-08-16 23:08:20,461 INFO step 8000: saved fela_checkpoint.pt
+2026-08-16 23:10:21,765 INFO step   8500 | lr 5.46e-04 | loss 2.7243 | ppl 15.246 | 1k tok/s
+2026-08-16 23:12:24,606 INFO step   9000 | lr 5.40e-04 | loss 2.6969 | ppl 14.834 | 1k tok/s
+2026-08-16 23:14:26,365 INFO step   9500 | lr 5.33e-04 | loss 2.7072 | ppl 14.987 | 1k tok/s
+2026-08-16 23:15:59,258 INFO step  10000 | lr 5.25e-04 | loss 2.7093 | ppl 15.019 | 1k tok/s
+2026-08-16 23:15:59,280 INFO step 10000: saved fela_checkpoint.pt
+2026-08-16 23:15:59,293 INFO step 10000: saved fela_10000.pt
+2026-08-16 23:17:14,660 INFO step  10500 | lr 5.18e-04 | loss 2.6780 | ppl 14.556 | 2k tok/s
+2026-08-16 23:18:10,887 INFO step  11000 | lr 5.10e-04 | loss 2.6997 | ppl 14.875 | 2k tok/s
+2026-08-16 23:19:07,041 INFO step  11500 | lr 5.02e-04 | loss 2.7116 | ppl 15.054 | 2k tok/s
+2026-08-16 23:20:03,976 INFO step  12000 | lr 4.94e-04 | loss 2.6929 | ppl 14.775 | 2k tok/s
+2026-08-16 23:20:04,008 INFO step 12000: saved fela_checkpoint.pt
+2026-08-16 23:21:00,039 INFO step  12500 | lr 4.85e-04 | loss 2.6759 | ppl 14.526 | 2k tok/s
+2026-08-16 23:22:01,698 INFO step  13000 | lr 4.76e-04 | loss 2.6991 | ppl 14.867 | 2k tok/s
+2026-08-16 23:23:27,419 INFO step  13500 | lr 4.67e-04 | loss 2.6924 | ppl 14.767 | 2k tok/s
+2026-08-16 23:25:00,746 INFO step  14000 | lr 4.58e-04 | loss 2.7062 | ppl 14.972 | 1k tok/s
+2026-08-16 23:25:00,776 INFO step 14000: saved fela_checkpoint.pt
+2026-08-16 23:26:57,186 INFO step  14500 | lr 4.48e-04 | loss 2.7090 | ppl 15.015 | 1k tok/s
+2026-08-16 23:28:54,472 INFO step  15000 | lr 4.38e-04 | loss 2.7014 | ppl 14.901 | 1k tok/s
+2026-08-16 23:30:53,716 INFO step  15500 | lr 4.28e-04 | loss 2.6846 | ppl 14.652 | 1k tok/s
+2026-08-16 23:32:49,424 INFO step  16000 | lr 4.18e-04 | loss 2.7173 | ppl 15.139 | 1k tok/s
+2026-08-16 23:32:49,453 INFO step 16000: saved fela_checkpoint.pt
+2026-08-16 23:34:51,187 INFO step  16500 | lr 4.08e-04 | loss 2.6877 | ppl 14.697 | 1k tok/s
+2026-08-16 23:36:50,721 INFO step  17000 | lr 3.98e-04 | loss 2.6704 | ppl 14.445 | 1k tok/s
+2026-08-16 23:38:51,613 INFO step  17500 | lr 3.87e-04 | loss 2.6849 | ppl 14.657 | 1k tok/s
+2026-08-16 23:40:52,355 INFO step  18000 | lr 3.77e-04 | loss 2.6665 | ppl 14.390 | 1k tok/s
+2026-08-16 23:40:52,385 INFO step 18000: saved fela_checkpoint.pt
+2026-08-16 23:42:55,000 INFO step  18500 | lr 3.66e-04 | loss 2.6707 | ppl 14.450 | 1k tok/s
+2026-08-16 23:44:56,131 INFO step  19000 | lr 3.56e-04 | loss 2.7269 | ppl 15.285 | 1k tok/s
+2026-08-16 23:46:57,280 INFO step  19500 | lr 3.45e-04 | loss 2.6782 | ppl 14.558 | 1k tok/s
+2026-08-16 23:48:55,710 INFO step  20000 | lr 3.34e-04 | loss 2.6964 | ppl 14.826 | 1k tok/s
+2026-08-16 23:48:55,740 INFO step 20000: saved fela_checkpoint.pt
+2026-08-16 23:48:55,755 INFO step 20000: saved fela_20000.pt
+2026-08-16 23:50:59,026 INFO step  20500 | lr 3.24e-04 | loss 2.6827 | ppl 14.624 | 1k tok/s
+2026-08-16 23:53:02,927 INFO step  21000 | lr 3.13e-04 | loss 2.6706 | ppl 14.448 | 1k tok/s
+2026-08-16 23:55:04,111 INFO step  21500 | lr 3.02e-04 | loss 2.7063 | ppl 14.974 | 1k tok/s
+2026-08-16 23:57:05,868 INFO step  22000 | lr 2.92e-04 | loss 2.7068 | ppl 14.981 | 1k tok/s
+2026-08-16 23:57:05,899 INFO step 22000: saved fela_checkpoint.pt
+2026-08-16 23:59:07,136 INFO step  22500 | lr 2.81e-04 | loss 2.6743 | ppl 14.502 | 1k tok/s
+2026-08-17 00:01:08,429 INFO step  23000 | lr 2.71e-04 | loss 2.6708 | ppl 14.451 | 1k tok/s
+2026-08-17 00:03:10,910 INFO step  23500 | lr 2.60e-04 | loss 2.6973 | ppl 14.840 | 1k tok/s
+2026-08-17 00:05:14,821 INFO step  24000 | lr 2.50e-04 | loss 2.6578 | ppl 14.265 | 1k tok/s
+2026-08-17 00:05:14,852 INFO step 24000: saved fela_checkpoint.pt
+2026-08-17 00:07:15,645 INFO step  24500 | lr 2.40e-04 | loss 2.7054 | ppl 14.960 | 1k tok/s
+2026-08-17 00:08:49,818 INFO step  25000 | lr 2.30e-04 | loss 2.6638 | ppl 14.351 | 1k tok/s
+2026-08-17 00:10:16,041 INFO step  25500 | lr 2.20e-04 | loss 2.6813 | ppl 14.604 | 2k tok/s
+2026-08-17 00:11:15,299 INFO step  26000 | lr 2.10e-04 | loss 2.6818 | ppl 14.611 | 2k tok/s
+2026-08-17 00:11:15,333 INFO step 26000: saved fela_checkpoint.pt
+2026-08-17 00:12:11,406 INFO step  26500 | lr 2.01e-04 | loss 2.6716 | ppl 14.463 | 2k tok/s
+2026-08-17 00:13:07,696 INFO step  27000 | lr 1.91e-04 | loss 2.6665 | ppl 14.390 | 2k tok/s
+2026-08-17 00:14:03,537 INFO step  27500 | lr 1.82e-04 | loss 2.7021 | ppl 14.911 | 2k tok/s
+2026-08-17 00:15:02,308 INFO step  28000 | lr 1.73e-04 | loss 2.6803 | ppl 14.589 | 2k tok/s
+2026-08-17 00:15:02,339 INFO step 28000: saved fela_checkpoint.pt
+2026-08-17 00:16:27,580 INFO step  28500 | lr 1.65e-04 | loss 2.6663 | ppl 14.386 | 2k tok/s
+2026-08-17 00:17:53,195 INFO step  29000 | lr 1.56e-04 | loss 2.6771 | ppl 14.543 | 2k tok/s
+2026-08-17 00:19:42,588 INFO step  29500 | lr 1.48e-04 | loss 2.6839 | ppl 14.643 | 1k tok/s
+2026-08-17 00:21:43,459 INFO step  30000 | lr 1.41e-04 | loss 2.6976 | ppl 14.845 | 1k tok/s
+2026-08-17 00:21:43,489 INFO step 30000: saved fela_checkpoint.pt
+2026-08-17 00:21:43,503 INFO step 30000: saved fela_30000.pt
+2026-08-17 00:23:44,480 INFO step  30500 | lr 1.33e-04 | loss 2.6735 | ppl 14.490 | 1k tok/s
+2026-08-17 00:25:46,182 INFO step  31000 | lr 1.26e-04 | loss 2.6857 | ppl 14.668 | 1k tok/s
+2026-08-17 00:27:40,921 INFO step  31500 | lr 1.19e-04 | loss 2.6796 | ppl 14.579 | 1k tok/s
+2026-08-17 00:29:43,605 INFO step  32000 | lr 1.13e-04 | loss 2.6753 | ppl 14.517 | 1k tok/s
+2026-08-17 00:29:43,637 INFO step 32000: saved fela_checkpoint.pt
+2026-08-17 00:31:45,347 INFO step  32500 | lr 1.06e-04 | loss 2.6651 | ppl 14.369 | 1k tok/s
+2026-08-17 00:33:47,820 INFO step  33000 | lr 1.01e-04 | loss 2.6878 | ppl 14.699 | 1k tok/s
+2026-08-17 00:35:50,103 INFO step  33500 | lr 9.51e-05 | loss 2.6744 | ppl 14.504 | 1k tok/s
+2026-08-17 00:37:51,198 INFO step  34000 | lr 9.00e-05 | loss 2.6595 | ppl 14.289 | 1k tok/s
+2026-08-17 00:37:51,232 INFO step 34000: saved fela_checkpoint.pt
+2026-08-17 00:39:53,887 INFO step  34500 | lr 8.53e-05 | loss 2.6841 | ppl 14.644 | 1k tok/s
+2026-08-17 00:41:53,910 INFO step  35000 | lr 8.10e-05 | loss 2.6817 | ppl 14.610 | 1k tok/s
+2026-08-17 00:43:56,157 INFO step  35500 | lr 7.70e-05 | loss 2.6652 | ppl 14.370 | 1k tok/s
+2026-08-17 00:45:57,015 INFO step  36000 | lr 7.35e-05 | loss 2.6737 | ppl 14.493 | 1k tok/s
+2026-08-17 00:45:57,046 INFO step 36000: saved fela_checkpoint.pt
+2026-08-17 00:47:59,906 INFO step  36500 | lr 7.03e-05 | loss 2.6678 | ppl 14.409 | 1k tok/s
+2026-08-17 00:49:59,993 INFO step  37000 | lr 6.76e-05 | loss 2.6513 | ppl 14.173 | 1k tok/s
+2026-08-17 00:52:02,066 INFO step  37500 | lr 6.53e-05 | loss 2.6864 | ppl 14.679 | 1k tok/s
+2026-08-17 00:54:01,962 INFO step  38000 | lr 6.34e-05 | loss 2.6491 | ppl 14.142 | 1k tok/s
+2026-08-17 00:54:01,995 INFO step 38000: saved fela_checkpoint.pt
+2026-08-17 00:56:04,503 INFO step  38500 | lr 6.19e-05 | loss 2.6565 | ppl 14.246 | 1k tok/s
+2026-08-17 00:58:04,591 INFO step  39000 | lr 6.08e-05 | loss 2.6703 | ppl 14.445 | 1k tok/s
+2026-08-17 01:00:07,854 INFO step  39500 | lr 6.02e-05 | loss 2.6810 | ppl 14.600 | 1k tok/s
+2026-08-17 01:01:38,473 INFO step  40000 | lr 6.00e-05 | loss 2.6803 | ppl 14.590 | 1k tok/s
+2026-08-17 01:01:38,502 INFO step 40000: saved fela_checkpoint.pt
+2026-08-17 01:01:38,517 INFO step 40000: saved fela_40000.pt
