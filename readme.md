@@ -8,6 +8,7 @@
 - **kNN Language Model** - [Paper](https://arxiv.org/abs/1911.00172), [Code](./klm/knn%20language%20model.ipynb)
 - **Knowledge Distillation** - [Paper](https://arxiv.org/abs/1503.02531), [Code](./knowledge%20distillation/kd.py)
 - **LLaMA3** - [Paper](https://arxiv.org/pdf/2407.21783), [Code](./llama3/LLaMA-jax.ipynb)
+- **ProtHyena** - [Paper](https://www.biorxiv.org/content/10.1101/2024.01.18.576206v1), [Code](./prothyena/fela.ipynb)
 - **scMalignantFinder** - [Paper](https://www.nature.com/articles/s42003-025-07942-y), [Code](./scmalignantfinder/scMalignantFinder.ipynb)
 - **UNet** - [Paper](https://arxiv.org/abs/1505.04597), [Code](./unet/unet.ipynb)
 - **Variational Autoencoder** - [Paper](https://arxiv.org/abs/2604.18035), [Code](./autoencoder/variational%20autoencoder.ipynb)
