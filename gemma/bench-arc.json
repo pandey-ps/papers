@@ -1,0 +1,193 @@
+{
+  "order": {
+    "id": "677cd8bb-8e82-4bc6-a032-0f1c778969ec",
+    "status": "completed",
+    "benchmark_identity_hash": "2851ac0b36d44f9fa3421fd5542e1dd40d39fe1df6599640ad70215fe83e797a",
+    "request_summary": {
+      "benchmark": "arc_challenge",
+      "model_files": [
+        "model.safetensors"
+      ],
+      "model_format": "safetensors",
+      "benchmark_engine": "lm_eval",
+      "huggingface_repo": "pandeyps/Gemma",
+      "huggingface_revision": "33c8c4832ebc7caf9b48738978b29267a21d021d"
+    },
+    "coordinator_quote": {
+      "estimated_runtime_seconds": 1147,
+      "selected_gpu_type": "NVIDIA H100 PCIe",
+      "selected_gpu_count": 1
+    },
+    "charged_cents": 639,
+    "reserved_cents": 0,
+    "currency": "usd",
+    "requires_admin_review": false,
+    "review_reason": null,
+    "failure_classification": null,
+    "problem_note": null,
+    "result": {
+      "score": 0.22696245733788395,
+      "metrics": {
+        "arc_challenge": {
+          "acc,none": 0.22696245733788395,
+          "sample_len": 1172,
+          "acc_norm,none": 0.22696245733788395,
+          "acc_stderr,none": 0.012240491536132863,
+          "acc_norm_stderr,none": 0.012240491536132863
+        }
+      },
+      "samples": 1172,
+      "accuracy": 0.22696245733788395,
+      "benchmark": "arc_challenge",
+      "evaluator": {
+        "kind": "lm_eval",
+        "version": "remote-endpoint-evaluator@lm-eval-0.4.12+transformers-5.10.4+gguf-tokenizer-1.1+ifeval-4.0-tpn.1+mmlu-pro-3.1-tpn.1+advanced-parameters-1;evaluator-image=unrecorded;evaluator-dependencies=unrecorded;model-server=taofuprotocol/benchmark-runpod-vllm@sha256:cefe65b479a77cb79a5bb51987ccc66aee2f524df16538b8d4de9f9a146fffe9;runtime-backend=vllm;benchmark-options-sha256=f65fa2b2da8f326167866566c81fb00da2e2085f08286f1221c1025d6495aa1b;vllm-batch-invariant=1;lm-eval-limit=full;config-sha256=0e183e66579374f401c6678b52896e5e34ae6e164f5e6102c7f9d3333631cb23"
+      },
+      "model_server": {
+        "runtime_backend": "vllm"
+      },
+      "score_metadata": {
+        "task": "arc_challenge",
+        "metric": "acc_norm,none",
+        "num_fewshot": null
+      },
+      "runtime_seconds": 18.916,
+      "benchmark_engine": "lm_eval",
+      "native_benchmark": "arc_challenge",
+      "benchmark_protocol": null,
+      "evaluation_parameters": {
+        "seed": null,
+        "top_p": null,
+        "batch_size": null,
+        "num_fewshot": null,
+        "temperature": 0,
+        "max_new_tokens": null,
+        "trust_remote_code": false
+      }
+    },
+    "result_summary": {
+      "score": 0.22696245733788395,
+      "counts": null,
+      "metrics": {
+        "arc_challenge": {
+          "acc,none": 0.22696245733788395,
+          "sample_len": 1172,
+          "acc_norm,none": 0.22696245733788395,
+          "acc_stderr,none": 0.012240491536132863,
+          "acc_norm_stderr,none": 0.012240491536132863
+        }
+      },
+      "samples": 1172,
+      "benchmarks": null,
+      "total_tokens": null,
+      "prompt_tokens": null,
+      "score_metadata": {
+        "task": "arc_challenge",
+        "metric": "acc_norm,none",
+        "num_fewshot": null
+      },
+      "execution_policy": null,
+      "completion_tokens": null,
+      "benchmark_protocol": null,
+      "evaluation_parameters": {
+        "seed": null,
+        "top_p": null,
+        "batch_size": null,
+        "num_fewshot": null,
+        "temperature": 0,
+        "max_new_tokens": null,
+        "trust_remote_code": false
+      }
+    },
+    "benchmark_items": [
+      {
+        "position": 0,
+        "benchmark_engine": "lm_eval",
+        "benchmark": "arc_challenge",
+        "status": "completed"
+      }
+    ],
+    "score": 0.22696245733788395,
+    "reused_from_order_id": null,
+    "created_at": "2026-09-17T15:12:41.162Z",
+    "quote_expires_at": "2026-09-17T15:42:41.162Z",
+    "paid_at": "2026-09-17T15:12:41.327Z",
+    "queued_at": "2026-09-17T15:12:41.327Z",
+    "completed_at": "2026-09-17T15:20:17.854Z",
+    "updated_at": "2026-09-17T15:20:17.854Z"
+  },
+  "result_summary": {
+    "score": 0.22696245733788395,
+    "counts": null,
+    "metrics": {
+      "arc_challenge": {
+        "acc,none": 0.22696245733788395,
+        "sample_len": 1172,
+        "acc_norm,none": 0.22696245733788395,
+        "acc_stderr,none": 0.012240491536132863,
+        "acc_norm_stderr,none": 0.012240491536132863
+      }
+    },
+    "samples": 1172,
+    "benchmarks": null,
+    "total_tokens": null,
+    "prompt_tokens": null,
+    "score_metadata": {
+      "task": "arc_challenge",
+      "metric": "acc_norm,none",
+      "num_fewshot": null
+    },
+    "execution_policy": null,
+    "completion_tokens": null,
+    "benchmark_protocol": null,
+    "evaluation_parameters": {
+      "seed": null,
+      "top_p": null,
+      "batch_size": null,
+      "num_fewshot": null,
+      "temperature": 0,
+      "max_new_tokens": null,
+      "trust_remote_code": false
+    }
+  },
+  "result": {
+    "score": 0.22696245733788395,
+    "metrics": {
+      "arc_challenge": {
+        "acc,none": 0.22696245733788395,
+        "sample_len": 1172,
+        "acc_norm,none": 0.22696245733788395,
+        "acc_stderr,none": 0.012240491536132863,
+        "acc_norm_stderr,none": 0.012240491536132863
+      }
+    },
+    "samples": 1172,
+    "accuracy": 0.22696245733788395,
+    "benchmark": "arc_challenge",
+    "evaluator": {
+      "kind": "lm_eval",
+      "version": "remote-endpoint-evaluator@lm-eval-0.4.12+transformers-5.10.4+gguf-tokenizer-1.1+ifeval-4.0-tpn.1+mmlu-pro-3.1-tpn.1+advanced-parameters-1;evaluator-image=unrecorded;evaluator-dependencies=unrecorded;model-server=taofuprotocol/benchmark-runpod-vllm@sha256:cefe65b479a77cb79a5bb51987ccc66aee2f524df16538b8d4de9f9a146fffe9;runtime-backend=vllm;benchmark-options-sha256=f65fa2b2da8f326167866566c81fb00da2e2085f08286f1221c1025d6495aa1b;vllm-batch-invariant=1;lm-eval-limit=full;config-sha256=0e183e66579374f401c6678b52896e5e34ae6e164f5e6102c7f9d3333631cb23"
+    },
+    "model_server": {
+      "runtime_backend": "vllm"
+    },
+    "score_metadata": {
+      "task": "arc_challenge",
+      "metric": "acc_norm,none",
+      "num_fewshot": null
+    },
+    "runtime_seconds": 18.916,
+    "benchmark_engine": "lm_eval",
+    "native_benchmark": "arc_challenge",
+    "benchmark_protocol": null,
+    "evaluation_parameters": {
+      "seed": null,
+      "top_p": null,
+      "batch_size": null,
+      "num_fewshot": null,
+      "temperature": 0,
+      "max_new_tokens": null,
+      "trust_remote_code": false
+    }
+  }
+}
