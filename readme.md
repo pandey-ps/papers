@@ -10,6 +10,7 @@
 - **LLaMA3** - [Paper](https://arxiv.org/pdf/2407.21783), [Code](./llama3/LLaMA-jax.ipynb)
 - **ProtHyena** - [Paper](https://www.biorxiv.org/content/10.1101/2024.01.18.576206v1), [Code](./prothyena/fela.ipynb)
 - **scMalignantFinder** - [Paper](https://www.nature.com/articles/s42003-025-07942-y), [Code](./scmalignantfinder/scMalignantFinder.ipynb)
+- **Sparse Autoencoder** - [Paper](https://arxiv.org/abs/2406.04093), [Code](./sparse%20autoencoder/sparse_autoencoder.ipynb)
 - **UNet** - [Paper](https://arxiv.org/abs/1505.04597), [Code](./unet/unet.ipynb)
 - **Variational Autoencoder** - [Paper](https://arxiv.org/abs/2604.18035), [Code](./autoencoder/variational%20autoencoder.ipynb)
 - **Vision Transformers** - [Paper](https://arxiv.org/abs/2010.11929), [Code](./vision%20transformer/ViT.ipynb)
